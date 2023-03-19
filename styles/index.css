@@ -1,0 +1,41 @@
+body {
+    padding: 10px 0 0 20px;
+}
+
+span {
+    font-weight: 800;
+}
+
+.table-container {
+    width: 300px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 100%;
+}
+
+caption {
+    padding: 10px;
+    font-style: italic;
+    color: darkblue;
+    caption-side: bottom;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+th {
+    font-size: 1.2rem;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #d7d3d3;
+}
